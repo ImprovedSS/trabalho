@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantas</title>
+    <link rel="stylesheet" href="./css/plantas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./javascript/one.js"></script>
+</head>
+
+<body>
+    <header>
+        <section class="nav-menu" id="menu">
+            <nav>
+                <div class="menu">
+                    <h1>
+                        <ul>
+                            <li><a href="./plants.html"><img src="./image/index/plants.png" alt="Menu das Plantas"></a>
+                            </li>
+                            <li id="vs-li"><a href="./index.html"><img src="./image/index/vs.png" alt="Menu inicial"
+                                        id="vs-img"></a></li>
+                            <li><a href="./zombies.html"><img src="./image/index/zombies.png" alt="Menu dos Zumbis"></a>
+                            </li>
+                        </ul>
+                    </h1>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section class="menu-jogos">
+            <div class="menu-jogos-title">
+                <h2>Escolha a versão</h2>
+            </div>
+
+            <div class="menu-jogos-content">
+                <div class="row1">
+                    <div class="column1">
+                        <a href="#pvz">
+                            <div class="box-image">
+                                <img class="icon-back" src="./image/icons/back/pvzicon.jpg" alt="Ícone do jogo Plants vs. Zombies">
+                                <div class="box-image-gradient"></div>
+                                <img id="front-pvz-icon" class="icon-front" src="./image/icons/front/pvzicon.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="column2">
+                        <a href="#pvz2">
+                            <div class="box-image">
+                                <img class="icon-back" src="./image/icons/back/pvz2icon.jpg" alt="Ícone do jogo Plants vs. Zombies 2: It's about time">
+                                <div class="box-image-gradient"></div>
+                                <img id="front-pvz2-icon"class="icon-front" src="./image/icons/front/pvz2icon.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="column3">
+                        <a href="#pvz3">
+                            <div class="box-image">
+                                <img class="icon-back" src="./image/icons/back/pvz3icon.jpg" alt="Ícone do jogo Plants vs. Zombies 3: Welcome to Zomburbia">
+                                <div class="box-image-gradient"></div>
+                                <img id="front-pvz3-icon" class="icon-front" src="./image/icons/front/pvz3icon.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row2">
+                    <div class="column1">
+                        <a href="#pvzgw">
+                            <div class="box-image">
+                                <img class="icon-back" src="./image/icons/back/pvzgwicon.jpg" alt="Ícone do jogo Plants vs. Zombies: Garden Warfare">
+                                <div class="box-image-gradient"></div>
+                                <img id="front-pvzgw-icon" class="icon-front" src="./image/icons/front/pvzgwicon.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="column2">
+                        <a href="#pvzgw2">
+                            <div class="box-image">
+                                <img class="icon-back" src="./image/icons/back/pvzgw2icon.jpg" alt="Ícone do jogo Plants vs. Zombies: Garden Warfare 2">
+                                <div class="box-image-gradient"></div>
+                                <img id="front-pvzgw2-icon" class="icon-front" src="./image/icons/front/pvzgw2icon.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="column3">
+                        <a href="#pvzbfn">
+                            <div class="box-image">
+                                <img class="icon-back" src="./image/icons/back/pvzbfnicon.jpg" alt="Ícone do jogo Plants vs. Zombies: Battle for Neighborville">
+                                <div class="box-image-gradient"></div>
+                                <img id="front-pvzbfn-icon" class="icon-front" src="./image/icons/front/pvzbfnicon.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row3">
+                    <div class="column1">
+                        <a href="#pvzheroes">
+                            <div class="box-image">
+                                <img class="icon-back" src="./image/icons/back/pvzheroesicon.jpg" alt="Ícone do jogo Plants vs. Zombies: Heroes">
+                                <div class="box-image-gradient"></div>
+                                <img id="front-pvzheroes-icon" class="icon-front" src="./image/icons/front/pvzheroesicon.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <a href="#menu" id="a-menu">
+            <div class="btn-restart" id="btn-restart" title="Ir para cima" onclick="sumirRestart()">
+                <i class="fa-solid fa-caret-up"></i>
+            </div>
+        </a>
+
+        <a href="#footer" id="a-footer">
+            <div class="btn-bottom" id="btn-bottom" title="Ir para baixo" onclick="sumirBottom()">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </a>
+
+        <section class="pvz section" id="pvz">
+            <div class="title">
+                <img src="./image/titles/pvz.png" alt="Logo Plants vs. Zombies">
+            </div>
+            </div class="content">
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/sunflower.png" alt="Imagem Girassol">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Girassol(Sunflower):
+                        </h3>
+                        <p>
+                            Girassol não resiste a dançar. Que batida é essa? O quê? É o ritmo jazzístico vivificante da Terra em si, batendo em uma frequência que apenas o Girassol pode ouvir.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/twim_sunflower.png" alt="Imagem Girassóis Gêmeos">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Girassóis Gêmeos(Twim Sunflower):
+                        </h3>
+                        <p>
+                            Foi uma noite louca de uma ciência esquecida que trouxe os Girassóis Gêmeos á vida. Trovões acertaram de cima, luzes estranhas piscavam, e até os ventos que rugiam assobiavam com raiva. Mas sem sucesso... Os Girassóis Gêmeos estavam vivos, VIVOS!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/marigold.png" alt="Imagem Calêndula">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Calêndula(Marigold):
+                        </h3>
+                        <p>
+                            Marigold passa muito tempo decidindo se deve cuspir uma moeda de prata ou de ouro. Ela pensa sobre isso, pesa os ângulos. Ela faz pesquisas sólidas e se mantém atualizada com as publicações atuais. É assim que os vencedores ficam à frente.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="Imagem Disparervilha">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Disparervilha(Peashooter):
+                        </h3>
+                        <p>
+                            Como pode uma única planta crescer e atirar muitas ervilhas tão rapidamente? Disparervilha diz: "Trabalho árduo, comprometimento e uma vida saudável, café da manhã bem balanceado com luz solar e dióxido de carbono rico em fibras faz tudo possível."
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/repeater.png" alt="Imagem Duplervilha">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Duplervilha(Repeater):
+                        </h3>
+                        <p>
+                            A Duplervilha é feroz. Ela é das ruas. Ela não aceita atitude de ninguém, planta ou zumbi, e ela atira ervilhas para manter as pessoas à distância. Secretamente, porém, Duplervilha anseia por amor.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/gatling_pea.png" alt="Imegam Metralhervilha">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Metralhervilha(Gatling Pea):
+                        </h3>
+                        <p>
+                            Os pais de Metralhervilha estavam preocupados quando ele anunciou sua intenção de ingressar nas forças Armadas. "Mas querido, é tão perigoso!" eles disseram em uníssono. Metralhervilha recusou-se a ceder. "A vida é perigosa" ele respondeu, os olhos brilhando com uma convicção de aço.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/snow_pea.png" alt="Imagem Gelervilha">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Gelervilha(Snow Pea):
+                        </h3>
+                        <p>
+                            As pessoas costumam dizer à Gelervilha o quão "legal" ela é, ou forçá-la a "relaxar". Eles dizem a ela para "ficar fria". Gelervilha apenas rola seu olhos. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/split_pea.png" alt="Imagem Bidisparervilha">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Bidisparervilha(Split Pea):
+                        </h3>
+                        <p>
+                            “Sim, sou geminiano”, diz Bidisparervilha. "Eu sei, grande surpresa. Mas tendo duas cabeças - ou realmente, uma cabeça com um grande crescimento semelhante a uma cabeça nas costas - compensa minha linha de raciocínio."
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/threepeater.png" alt="Imagem Triplervilha">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Triplervilha(Threepeater):
+                        </h3>
+                        <p>
+                            Triplervilha gosta de ler, xadrez e longos períodos de imobilidade no parque. Triplervilha gosta de ir a shows, principalmente de jazz moderno. “Estou apenas procurando aquela pessoa especial”, diz ela. O número favorito da Triplervilha é 5.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/chomper.png" alt="Imagem Carnívora">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Carnívora(Chomper):
+                        </h3>
+                        <p>
+                            A Carnívora quase conseguiu um show fazendo acrobacias para "A Pequena Loja dos Horrores", mas falhou completamente quando seu agente exigiu beleza. A carnívora não ficou magoada, no entanto, vai levar um tempo para digerir esse "fracasso". Ela diz que é apenas parte do negócio.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/wall_nut.png" alt="Imagem Noz Obstáculo">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Noz Obstáculo(Wall Nut):
+                        </h3>
+                        <p>
+                            "As pessoas se perguntam como me sinto ao ser constantemente mastigado por zumbis", diz Noz. “O que eles não sabem é que com meus sentidos limitados tudo que posso sentir é uma espécie de formigamento, como um relaxamento nas costas ao esfregar."
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/tall_nut.png" alt="Imagem Noz Alta">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Noz Alta(Tall Nut):
+                        </h3>
+                        <p>
+                            As pessoas se perguntam se existe uma rivalidade entre a Noz Obstáculo e a Noz Alta. A Noz Alta dá uma risada rica de barítono. "Como poderia haver algo entre nós? Somos irmãs. Se você soubesse o que a Noz Obstáculo fez por mim..." A voz da Noz Alta desaparece e ela sorri conscientemente.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/torchwood.png" alt="Imagem Tronco Flamejante">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Tronco Flamejante(Torchwood):
+                        </h3>
+                        <p>
+                            Todo mundo gosta e respeita o Tronco Flamejante. Eles gostam dele por sua integridade, por sua amizade inabalável, por sua capacidade de maximizar enormemente os danos das ervilhas. Mas o Tronco Flamejante tem um segredo: ele não sabe ler.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/spikeweed.png" alt="imagem Erva Espinho">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Erva Espinho(Spikeweed):
+                        </h3>
+                        <p>
+                            O hóquei é a obsessão da Erva Espinho. Ela tem ingressos para a temporada inteira. Ela acompanha de perto seus jogadores favoritos. E ela limpa consistentemente a pista de hóquei do escritório. Só há um problema: ela tem pavor de discos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/spikerock.png" alt="Imagem Pedra Espinho">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Pedra Espinho(Spikerock):
+                        </h3>
+                        <p>
+                            Pedra Espinho acabou de voltar de uma viagem à Europa. Ela se divertiu muito, conheceu pessoas maravilhosas, realmente ampliou seus horizontes. Ela nunca soube que eles faziam museus tão grandes ou colocavam tantas pinturas neles. Isso foi uma grande surpresa para ela.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/pumpkim.png" alt="Imagem Abóbora">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Abóbora(Pumpkim):
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/flower_pot.png" alt="Imagem Pote de Flores">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Pote de Flores(Flower Pot):
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/lily_pad.png" alt="Imagem Vitória-Régia">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Vitória-Régia(Lily Pad):
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/tangle_kelp.png" alt="Imagem Emaranhalga">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Emaranhalga(Tangle Kelp):
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/grave_buster.png" alt="Imagem Come Cova">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Come Cova(Grave Buster):
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/sun_shroom.png" alt="Imagem Solargumelo">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Solargumelo(Sun-shroom):
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/puff_shroom.png" alt="Imagem Soprogumelo">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Soprogumelo(Puff-shroom):
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/fume_shroom.png" alt="Imagem Gasogumelo">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Gasogumelo(Fume-shroom):
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/gloom_shroom.png" alt="Imagem Cogumelo Sombrio">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Cogumelo Sombrio(Gloom-shroom):
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/scaredy_shroom.png" alt="Imagem Medogumelo">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Medogumelo(Scaredy-shroom):
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/hypno_shroom.png" alt="Imagem Hipnogumelo">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Hipnogumelo(Hypno-shroom):
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/ice_shroom.png" alt="Imagem Gelogumelo">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Gelogumelo(Ice-shroom):
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/doom_shroom.png" alt="Imagem Ruinagumelo">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Ruinagumelo(Doom-shroom):
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/magnet_shroom.png" alt="Imagem Ímãgumelo">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Ímãgumelo(Magnet-shroom):
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/gold_magnet.png" alt="Imagem Ímã de Ouro">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Ímã de Ouro(Gold Magnet):
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/plantern.png" alt="Imagem Planterna">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Planterna(Plantern):
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <!-- <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            NOME DA PLANTA
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            NOME DA PLANTA
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            NOME DA PLANTA
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            NOME DA PLANTA
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            NOME DA PLANTA
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            NOME DA PLANTA
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            NOME DA PLANTA
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            NOME DA PLANTA
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            NOME DA PLANTA
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            NOME DA PLANTA
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            NOME DA PLANTA
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            NOME DA PLANTA
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            NOME DA PLANTA
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            NOME DA PLANTA
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            NOME DA PLANTA
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            NOME DA PLANTA
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz/peashooter.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            NOME DA PLANTA
+                        </h3>
+                        <p>
+                            DESCRIÇÃO DA PLANTA
+                        </p>
+                    </div>
+                </div> -->
+            <div>
+        </section>
+
+        <section class="pvz2 section" id="pvz2">
+            <div class="title">
+                <img src="./image/titles/pvz2.png" alt="Logo Plants vs. Zombies 2: It's about time">
+            </div>
+
+            </div class="content">
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz2/sunflower.png" alt="Imagem Girassol">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Girassol(Sunflower):
+                        </h3>
+                        <p>
+                            Girassol não resiste a dançar. Que batida é essa? O quê? É o ritmo jazzístico vivificante da Terra em si, batendo em uma frequência que apenas o Girassol pode ouvir.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz2/peashooter.png" alt="Imagem Disparervilha">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Disparervilha(Peashooter):
+                        </h3>
+                        <p>
+                            Como pode uma única planta crescer e atirar muitas ervilhas tão rapidamente? Disparervilha diz: "Trabalho árduo, comprometimento e uma vida saudável, café da manhã bem balanceado com luz solar e dióxido de carbono rico em fibras faz tudo possível."
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz2/wall_nut.png" alt="Imagem Noz Obstáculo">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Noz Obstáculo(Wall Nut):
+                        </h3>
+                        <p>
+                            "As pessoas se perguntam como me sinto ao ser constantemente mastigado por zumbis", diz Noz. “O que eles não sabem é que com meus sentidos limitados tudo que posso sentir é uma espécie de formigamento, como um relaxamento nas costas ao esfregar."
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvz2/potato_mine.png" alt="Imagem Batata Mina">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Batata Mina(Potato Mine):
+                        </h3>
+                        <p> 
+                            Algumas pessoas dizem que o Batata Mina é preguiçosa, que ela deixa tudo para a última hora. A Batata Mina não diz nada. Ela está muito ocupada pensando em sua estratégia de investimento.
+                        </p>
+                    </div>
+                </div>
+            <div>
+        </section>
+
+        <section class="pvz3 section" id="pvz3">
+            <div class="title">
+                <img src="./image/titles/pvz3.png" alt="Logo Plants vs. Zombies 3: Welcome to Zomburbia">
+            </div>
+            
+            <div class="content-item">
+                <div class="content-item-img">
+                    <img src="./image/plantas/pvz3/sunflower.png" alt="Imagem Girassol">
+                </div>
+
+                <div class="content-item-content">
+                    <h3>
+                        Girassol(Sunflower):
+                    </h3>
+                    <p>
+                        Girassol não resiste a dançar. Que batida é essa? O quê? É o ritmo jazzístico vivificante da Terra em si, batendo em uma frequência que apenas o Girassol pode ouvir.
+                    </p>
+                </div>
+            </div>
+
+            <div class="content-item">
+                <div class="content-item-img">
+                    <img src="./image/plantas/pvz3/peashooter.png" alt="Imagem Disparervilha">
+                </div>
+                <div class="content-item-content">
+                    <h3>
+                        Disparervilha(Peashooter):
+                    </h3>
+                    <p>
+                        Como pode uma única planta crescer e atirar muitas ervilhas tão rapidamente? Disparervilha diz: "Trabalho árduo, comprometimento e uma vida saudável, café da manhã bem balanceado com luz solar e dióxido de carbono rico em fibras faz tudo possível."
+                    </p>
+                </div>
+            </div>
+
+            <div class="content-item">
+                <div class="content-item-img">
+                    <img src="./image/plantas/pvz3/wall_nut.png" alt="Imagem Noz Obstáculo">
+                </div>
+                <div class="content-item-content">
+                    <h3>
+                        Noz Obstáculo(Wall Nut):
+                    </h3>
+                    <p>
+                        "As pessoas se perguntam como me sinto ao ser constantemente mastigado por zumbis", diz Noz. “O que eles não sabem é que com meus sentidos limitados tudo que posso sentir é uma espécie de formigamento, como um relaxamento nas costas ao esfregar."
+                    </p>
+                </div>
+            </div>
+
+            <div class="content-item">
+                <div class="content-item-img">
+                    <img src="./image/plantas/pvz3/bonk_choy.png" alt="Imagem Repolho Boxeador">
+                </div>
+                <div class="content-item-content">
+                    <h3>
+                        Repolho Boxeador(Bonk Choy):
+                    </h3>
+                    <p> 
+                        O Repolho Boxeador soca rapidamente os inimigos próximos que estão à frente ou atrás deles. Além disso, ele é um dentista freelancer que está oferecendo uma oferta especial este mês - ele arrancará dois dentes pelo preço de um!
+                    </p>
+                </div>
+            </div>
+            <div>
+        </section>
+
+        <section class="pvzgw section" id="pvzgw">
+            <div class="title">
+                <img src="./image/titles/pvzgw.png" alt="Logo Plants vs. Zombies: Garden Warfare">
+            </div>            
+            </div class="content">
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvzgw/sunflower.png" alt="Imagem Girassol">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Girassol(Sunflower):
+                        </h3>
+                        <p>
+                            Girassol não resiste a dançar. Que batida é essa? O quê? É o ritmo jazzístico vivificante da Terra em si, batendo em uma frequência que apenas o Girassol pode ouvir.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvzgw/peashooter.png" alt="Imagem Disparervilha">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Disparervilha(Peashooter):
+                        </h3>
+                        <p>
+                            Como pode uma única planta crescer e atirar muitas ervilhas tão rapidamente? Disparervilha diz: "Trabalho árduo, comprometimento e uma vida saudável, café da manhã bem balanceado com luz solar e dióxido de carbono rico em fibras faz tudo possível."
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvzgw/chomper.png" alt="Imagem Carnívora">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Carnívora(Chomper):
+                        </h3>
+                        <p>
+                            A Carnívora quase conseguiu um show fazendo acrobacias para "A Pequena Loja dos Horrores", mas falhou completamente quando seu agente exigiu beleza. A carnívora não ficou magoada, no entanto, vai levar um tempo para digerir esse "fracasso". Ela diz que é apenas parte do negócio.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvzgw/cactus.png" alt="Imagem Cacto">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Cacto(Cactus):
+                        </h3>
+                        <p> 
+                            Ele é espinhoso, claro, mas os espinhos do Cacto mascaram um coração esponjoso cheio de amor e boa vontade. Ele só quer abraçar e ser abraçado. A maioria das pessoas não consegue aguentar isso, mas o Cacto não se importa.
+                        </p>
+                    </div>
+                </div>
+            <div>
+        </section>
+
+        <section class="pvzgw2 section" id="pvzgw2">
+            <div class="title">
+                <img src="./image/titles/pvzgw2.png" alt="Logo Plants vs. Zombies: Garden Warfare 2">
+            </div>
+            </div class="content">
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvzgw2/sunflower.png" alt="Imagem Girassol">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Girassol(Sunflower):
+                        </h3>
+                        <p>
+                            Girassol não resiste a dançar. Que batida é essa? O quê? É o ritmo jazzístico vivificante da Terra em si, batendo em uma frequência que apenas o Girassol pode ouvir.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvzgw2/peashooter.png" alt="Imagem Disparervilha">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Disparervilha(Peashooter):
+                        </h3>
+                        <p>
+                            Como pode uma única planta crescer e atirar muitas ervilhas tão rapidamente? Disparervilha diz: "Trabalho árduo, comprometimento e uma vida saudável, café da manhã bem balanceado com luz solar e dióxido de carbono rico em fibras faz tudo possível."
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvzgw2/chomper.png" alt="Imagem Carnívora">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Carnívora(Chomper):
+                        </h3>
+                        <p>
+                            A Carnívora quase conseguiu um show fazendo acrobacias para "A Pequena Loja dos Horrores", mas falhou completamente quando seu agente exigiu beleza. A carnívora não ficou magoada, no entanto, vai levar um tempo para digerir esse "fracasso". Ela diz que é apenas parte do negócio.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvzgw2/cactus.png" alt="Imagem Cacto">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Cacto(Cactus):
+                        </h3>
+                        <p> 
+                            Ele é espinhoso, claro, mas os espinhos do Cacto mascaram um coração esponjoso cheio de amor e boa vontade. Ele só quer abraçar e ser abraçado. A maioria das pessoas não consegue aguentar isso, mas o Cacto não se importa.
+                        </p>
+                    </div>
+                </div>
+            <div>
+        </section>
+
+        <section class="pvzbfn section" id="pvzbfn">
+            <div class="title">
+                <img src="./image/titles/pvzbfn.png" alt="Logo Plants vs. Zombies: Battle for Neighborville">
+            </div>
+            </div class="content">
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvzbfn/sunflower.png" alt="Imagem Girassol">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Girassol(Sunflower):
+                        </h3>
+                        <p>
+                            Girassol não resiste a dançar. Que batida é essa? O quê? É o ritmo jazzístico vivificante da Terra em si, batendo em uma frequência que apenas o Girassol pode ouvir.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvzbfn/peashooter.png" alt="Imagem Disparervilha">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Disparervilha(Peashooter):
+                        </h3>
+                        <p>
+                            Como pode uma única planta crescer e atirar muitas ervilhas tão rapidamente? Disparervilha diz: "Trabalho árduo, comprometimento e uma vida saudável, café da manhã bem balanceado com luz solar e dióxido de carbono rico em fibras faz tudo possível."
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvzbfn/chomper.png" alt="Imagem Carnívora">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Carnívora(Chomper):
+                        </h3>
+                        <p>
+                            A Carnívora quase conseguiu um show fazendo acrobacias para "A Pequena Loja dos Horrores", mas falhou completamente quando seu agente exigiu beleza. A carnívora não ficou magoada, no entanto, vai levar um tempo para digerir esse "fracasso". Ela diz que é apenas parte do negócio.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img src="./image/plantas/pvzbfn/cactus.png" alt="Imagem Cacto">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Cacto(Cactus):
+                        </h3>
+                        <p> 
+                            Ele é espinhoso, claro, mas os espinhos do Cacto mascaram um coração esponjoso cheio de amor e boa vontade. Ele só quer abraçar e ser abraçado. A maioria das pessoas não consegue aguentar isso, mas o Cacto não se importa.
+                        </p>
+                    </div>
+                </div>
+            <div>
+        </section>
+
+        <section class="pvzheroes section" id="pvzheroes">
+            <div class="title">
+                <img src="./image/titles/pvzheroes.png" alt="Logo Plants vs. Zombies: Heroes">
+            </div>
+            </div class="content">
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img id="heroes1" src="./image/plantas/pvzheroes/solar_flare.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Solar Flare
+                        </h3>
+                        <p>
+                            Descrição
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img id="heroes2" src="./image/plantas/pvzheroes/green_shadow.png" alt="Imagem Green Shadow">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Green Shadow
+                        </h3>
+                        <p>
+                            Descrição
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="content-item-img">
+                        <img id="heroes3" src="./image/plantas/pvzheroes/chompzilla.png" alt="">
+                    </div>
+                    <div class="content-item-content">
+                        <h3>
+                            Chompzilla
+                        </h3>
+                        <p>
+                            Descrição                      
+                        </p>
+                    </div>
+                </div>
+            <div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-contacts">
+            <div class="github">
+                <a href="https://github.com/ImprovedSS" class="footer-link" target="_blank">
+                    <div class="footer-title">
+                        Github
+                    </div>
+                    <div class="footer-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </a>
+            </div>
+
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/flavio-filho-00aa0523b/" class="footer-link" target="_blank">
+                    <div class="footer-title">
+                        LinkedIn
+                    </div>
+                    <div class="footer-icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </a>
+            </div>
+
+            <div class="whatsapp">
+                <a href="https://wa.me/5534993319401" class="footer-link" target="_blank">
+                    <div class="footer-title">
+                        WhatsApp
+                    </div>
+                    <div class="footer-icon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &#169 2024 Todos os direitos reservados.
+        </div>
+    </footer>
+</body>
+
+</html>

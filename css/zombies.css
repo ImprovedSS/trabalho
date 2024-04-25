@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Image by <a href="https://www.freepik.com/free-vector/white-elegant-texture-background_6765111.htm?epik=dj0yJnU9YXNxVURrSE0xam82NE5zZUh5MVpIdERtT0tzTEZuV0cmcD0wJm49aUlRU0k3NEprWFBpZGJ1YmFkUWNGdyZ0PUFBQUFBR1lXLXFF">Freepik</a> */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.green {
+    color: rgba(144,196,23,255);
+}
+
+.purple {
+    color: rgba(150,102,160,255);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.no-interaction {
+    pointer-events: none;
+    user-select: none;
+    overflow-y: hidden;
+}
+
+.menu {
+    border: 1.5px solid rgba(243, 243, 243);
+    padding-bottom: 3px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-right: 57px;
+}
+
+.menu a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu img {
+    margin-top: 3px;
+    height: 50px;
+    width: 150px
+}
+
+.menu img:hover {
+    opacity: 0.7;
+}
+
+#vs-img {
+    height: 25px;
+    width: 50px;
+    margin-right: 9px;
+    margin-bottom: 1px;
+
+}
+
+#vs-li {
+    align-self: flex-end;
+}
+
+main {
+    background-image: url(./../image/background/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-jogos {
+    margin-bottom: 300px;
+}
+
+.menu-jogos-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-jogos-title h2 {
+    font-size: 50px;
+    color:  rgba(150,102,160,255);
+}
+
+
+.menu-jogos-content {
+    display: flex;
+    flex-direction: column;
+    height: 1120px;
+    align-items: center;
+}
+
+.menu-jogos-content img {
+    width: 340px;
+    height: 340px;
+}
+
+.row1, .row2, .row3 {
+    display: flex;
+}
+
+.row3 {
+    margin-left: -740px;
+}
+
+.column1, .column2, .column3 {
+    margin: 15px;
+}
+
+.menu-jogos-content .box-image {
+    position: relative;
+    transition: 0.5s all;
+}
+
+.menu-jogos-content .icon-front {
+    position: absolute;
+    z-index: 3;
+    transition: 0.5s;
+}
+
+#front-pvz-icon {
+    width: 120px;
+    height: 90px;
+    left: 110px;
+    top: 115px;
+}
+
+.menu-jogos-content .box-image:hover #front-pvz-icon {
+    width: 150px;
+    height: 120px;
+    left: 95px;
+    top: 100px;
+}
+
+
+#front-pvz2-icon {
+    width: 120px;
+    height: 120px;
+    left: 110px;
+    top: 110px;
+}
+
+.menu-jogos-content .box-image:hover #front-pvz2-icon {
+    width: 150px;
+    height: 150px;
+    left: 95px;
+    top: 95px;
+}
+
+#front-pvz3-icon {
+    width: 120px;
+    height: 90px;
+    left: 110px;
+    top: 125px;
+}
+
+.menu-jogos-content .box-image:hover #front-pvz3-icon {
+    width: 150px;
+    height: 120px;
+    left: 95px;
+    top: 110px;
+}
+
+#front-pvzgw-icon {
+    width: 120px;
+    height: 90px;
+    left: 110px;
+    top: 125px;
+}
+
+#front-pvzgw2-icon {
+    width: 150px;
+    height: 90px;
+    left: 95px;
+    top: 125px;
+}
+
+#front-pvzbfn-icon {
+    width: 150px;
+    height: 90px;
+    left: 95px;
+    top: 125px;
+}
+
+.menu-jogos-content .box-image:hover #front-pvzgw-icon, .menu-jogos-content .box-image:hover #front-pvzgw2-icon, .menu-jogos-content .box-image:hover #front-pvzbfn-icon {
+    width: 180px;
+    height: 120px;
+    left: 80px;
+    top: 110px;
+}
+
+#front-pvzheroes-icon {
+    width: 210px;
+    height: 90px;
+    left: 65px;
+    top: 125px;
+}
+
+.menu-jogos-content .box-image:hover #front-pvzheroes-icon {
+    width: 300px;
+    height: 120px;
+    left: 20px;
+    top: 110px;
+}
+
+.box-image-gradient {
+    display: inline;
+    width: 340px;
+    height: 340px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    transition: 0.375s;
+    background: linear-gradient(90deg,rgb(134,97,149), rgb(166,125,176), rgb(100,68,124));
+    opacity: 0.5;
+}
+
+.menu-jogos-content .box-image:hover .box-image-gradient {
+    background: linear-gradient(90deg,rgb(134,97,149), rgb(166,125,176), rgb(100,68,124));
+    z-index: 2;
+    opacity: 0.92;
+}
+
+#btn-restart {
+    display: none;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 70px;
+    right: 10px;
+    background: rgba(150,102,160,255);
+    color: white;
+    transition: 1s;
+}
+
+#btn-bottom {
+    display: flex;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(150,102,160,255);
+    color: white;
+    transition: 1s;
+}
+
+
+.section {
+    display:flex;
+    flex-direction: column;
+    width: 100;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+.section .title img {
+    width: 500px;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-item {
+    display: flex;
+    width: 60%;
+    padding-bottom: 20px;
+    border-bottom: 1.5px solid rgb(233, 233, 233);
+    margin-bottom: 20px;
+}
+
+.content-item-img {
+    margin-right: 2.5%;
+}
+
+.content-item-img img{
+    border-radius: 15px;
+}
+
+.content-item-content h3 {
+    font-size: 22.5px;
+    margin-bottom: -5px;
+}
+
+.content-item-content p {
+    font-size: 15px;
+}
+
+#heroes1, #heroes2, #heroes3 {
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#pvzheroes {
+    margin: 0;
+}
+
+.footer-contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background: rgb(40, 40, 40);
+    width: 100%;
+}
+
+.github {
+    margin: 0px 200px 0px 100px;
+}
+
+.whatsapp {
+    margin: 0px 100px 0px 200px;
+}
+
+.github a , .linkedin a, .whatsapp a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-icon i {
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+#footer a:hover {
+    opacity: 0.5;
+    transition: 0.5s all;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: white;
+    background: rgb(34, 34, 34);
+}
